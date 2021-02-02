@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Row from "./components/Row/Row";
 import requests from "./requests";
 
 const App = () => {
-  const [movies, setMovies] = useState([]);
-
   return (
     <div className="App">
       <h1>Hi</h1>
