@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  transition: all 0.5s;
+  z-index: 5;
+}
+
+.nav__logo {
+  position: fixed;
+  height: 2.3rem;
+  left: 2rem;
+}
+
+.nav__avatar {
+  position: fixed;
+  height: 2.3rem;
+  right: 2rem;
+}
